@@ -1,0 +1,127 @@
+/* openai-1.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(45deg, #151515, #515151);
+    margin: 0;
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(232, 232, 232);
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: rgb(185, 185, 185);
+}
+
+#colorList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 860px;
+}
+
+.container {
+    background-color:  #ebebeb;
+    border-radius: 18px;
+    padding: 16px;
+}
+
+.colorBox {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #e0e0e0);
+    box-shadow: 5px 5px 10px #c0c0c0, -5px -5px 10px #ffffff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.colorBox:active {
+    transform: scale(0.95); /* Slight scaling down when clicked */
+    transition: transform 0.1s ease-in-out; /* Smooth transition for the scaling effect */
+}
+
+.clipContainer {
+    width: full;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+    justify-content: space-between;
+}
+
+button {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 20px;
+    background: linear-gradient(45deg, #8640c8, #5f6fe2);
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#promptInput {
+    padding: 15px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 14px;
+    margin-right: 8px;
+    flex-grow: 1;
+    background-color: white;
+}
+
+#promptInput:focus {
+    border-radius: 14px;
+    outline: none;
+}
+
+.prompt-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 824px;
+}
+
+#colorHexTag {
+    font-size: 15px;
+    color: #555;
+}
+
+#colorNameTag {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    max-width: 120px;
+    overflow-wrap: break-word;
+    color: #555;
+}
+
+
+
+/* Source: OpenAI */
