@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../../../.Trash/public"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AI-color-picker"
+	}
+}
